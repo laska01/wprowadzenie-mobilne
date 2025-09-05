@@ -10,6 +10,11 @@ public abstract class Osoba {
         this.imie = imie;
     }
 
+    public Osoba() {
+       imie="Edward";
+       nazwisko="jakistam";
+    }
+
     public String getNazwisko() {
         return nazwisko;
     }
